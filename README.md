@@ -1,5 +1,4 @@
 # Demo Boost A
-[日本語](# 📘 README（日本語）)
 
 Demo Boost A is a backend web server built with Node.js, designed to support data proxying and basic API routing functionality. It can serve as a base template for more complex backend applications.
 
