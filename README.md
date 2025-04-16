@@ -46,10 +46,14 @@ Make sure the port defined in `app.js` is available.
   Organized API structure using Express routers:  
   Express のルーターを用いた API 構成：
 
-  - `GET/POST/PUT/DELETE` for `/api/groups` | `/api/groups`：グループに関する CRUD 処理
-  - CRUD operations for `/api/posts` | `/api/posts`：投稿の管理
-  - Comments management via `/api/comments` | `/api/comments`：コメント処理
-  - Badge-related APIs on `/api/badges` | `/api/badges`：バッジに関する API
+  - `GET/POST/PUT/DELETE` for `/api/groups`
+    `/api/groups`：グループに関する CRUD 処理
+  - CRUD operations for `/api/posts`
+    `/api/posts`：投稿の管理
+  - Comments management via `/api/comments`
+    `/api/comments`：コメント処理
+  - Badge-related APIs on `/api/badges`
+    `/api/badges`：バッジに関する API
 
 - 🔁 **Proxy Middleware | プロキシミドルウェア**  
   Requests to `/api` are forwarded to `https://demo-boost-a.onrender.com/` using `http-proxy-middleware`.  
