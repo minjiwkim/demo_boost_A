@@ -55,7 +55,7 @@ Make sure the port defined in `app.js` is available.
   - Comments management via `/api/comments`  
   `/api/comments`：コメント処理
 
-  - Badge management via `/api/badges` 
+  - Badge management via `/api/badges`<br>
   `/api/badges`：バッジ管理
 
 - 🔁 **Proxy Middleware | プロキシミドルウェア**  
