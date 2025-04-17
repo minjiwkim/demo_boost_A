@@ -40,7 +40,7 @@ Make sure the port defined in `app.js` is available.
 
 - 🌐 **CORS Configuration | CORS 設定**  
   Fully configured Cross-Origin Resource Sharing (CORS) allowing requests from all domains.  
-  すべてのドメインからのリクエストを許可するように CORS（クロスオリジンリソース共有）を設定。
+  すべてのドメインからのリクエストを許可するように CORS（クロスオリジンリソース共有）を設定しました。
 
 - 📦 **Modular Routing | モジュール化されたルーティング**  
   Organized API structure using Express routers:  
@@ -55,8 +55,8 @@ Make sure the port defined in `app.js` is available.
   - Comments management via `/api/comments`  
   `/api/comments`：コメント処理
 
-  - Badge-related APIs on `/api/badges`  
-  `/api/badges`：バッジに関する API
+  - Badge management via `/api/badges`
+  `/api/badges`：バッジ管理
 
 - 🔁 **Proxy Middleware | プロキシミドルウェア**  
   Requests to `/api` are forwarded to `https://demo-boost-a.onrender.com/` using `http-proxy-middleware`.  
@@ -64,7 +64,7 @@ Make sure the port defined in `app.js` is available.
 
 - 🧩 **JSON Parsing & Middleware Setup | JSON 解析とミドルウェア**  
   Automatically parses JSON in request bodies and supports preflight OPTIONS requests.  
-  JSON 本文の自動解析と preflight OPTIONS リクエストへの対応。
+  リクエストボディ内のJSONを自動的に解析し、プレフライトOPTIONSリクエストをサポートします。
 
 - 🚀 **Quick Launch | 簡単に起動**  
   Runs on port `3000` by default (or configurable with `PORT` environment variable).  
